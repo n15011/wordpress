@@ -11,11 +11,13 @@
 
     sudo apt install virtualbox
 
-でインストール。
-ターミナル上で
+でインストール後ターミナル上で
+
     virtualbox
+
 なんなく起動しました。
 
 
+##0-2 Vagrantのインストール
+[vagrant公式サイト](https://www.vagrantup.com/downloads.html)からDEBIANの64-bitをインストール。
 
-~~aaaa~~
