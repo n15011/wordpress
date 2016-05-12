@@ -5,9 +5,9 @@
 ##0-1 virtualBoxのインストール
 
 ~~[公式サイト](https://www.virtualbox.org/)からDownload→VirtualBox5.0.20 for Linux hosts(2016年5月現在のversion)をクリック。
-起動しようとしたが原因が分からずVirtualBoxが立ち上がらなかったので~~
+起動しようとしたが原因が分からずVirtualBoxが起動しなかったので~~
 
-僕はターミナル上で
+ターミナル上で
 
     sudo apt install virtualbox
 
