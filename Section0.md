@@ -21,3 +21,8 @@
 ##0-2 Vagrantのインストール
 [vagrant公式サイト](https://www.vagrantup.com/downloads.html)からDEBIANの64-bitをインストール。
 
+    vagrant -v
+
+でバージョンが1.8.1か確認。
+
+先生に見せる。
