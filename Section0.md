@@ -4,16 +4,14 @@
 
 ##0-1 virtualBoxのインストール
 
-~~[公式サイト](https://www.virtualbox.org/)からDownload→VirtualBox5.0.20 for Linux hosts(2016年5月現在のversion)をクリック。
-起動しようとしたが原因が分からずVirtualBoxが起動しなかったので~~
 
 ターミナル上で
 
-    sudo apt install virtualbox
+    $sudo apt install virtualbox
 
 でインストール後ターミナル上で
 
-    virtualbox
+    $virtualbox
 
 なんなく起動しました。
 
@@ -21,7 +19,7 @@
 ##0-2 Vagrantのインストール
 [vagrant公式サイト](https://www.vagrantup.com/downloads.html)からDEBIANの64-bitをインストール。
 
-    vagrant -v
+    $vagrant -v
 
 でvagrantがインストールされてることとバージョンが1.8.1か確認。
 
