@@ -23,4 +23,4 @@
 
 でvagrantがインストールされてることとバージョンが1.8.1か確認。
 
-先生に見せる。OK貰ったら[Section1](https://github.com/n15011/wordpress/blob/master/Section1.md)
+先生に見せる。OK貰ったら[Section1](https://github.com/n15011/wordpress/blob/master/Section1.md)へGo！！
