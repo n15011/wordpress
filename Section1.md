@@ -14,7 +14,7 @@ CentOSの公式サイトよりCentOS 7 Minimal ISO(x86_64)のISOファイルを�
 
 起動したら"新規"をクリック、その次にエキスパートモードをクリックします。
 
-![aaaa](./a.png)
+![](./img/wordpress1.png)
 
 
 
