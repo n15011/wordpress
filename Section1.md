@@ -1,13 +1,24 @@
 #Section1 基本のサーバー構築
 
-##CentOS 7のインストール
+##Section1-1 CentOS 7のインストール
 
-~~CentOSの公式サイトよりCentOS 7 Minimal ISO(x86_64)のISOファイルをダウンロードし、 VirtualBox上にインストールしてください。~~
+CentOSの公式サイトよりCentOS 7 Minimal ISO(x86_64)のISOファイルをダウンロードし、 VirtualBox上にインストールしてください。
 
-先生が配るUSBからCentOS-7-x86_64-Minimal-1511.isoを自分のパソコンにコピーします。
+先生からUSBを借りCentOS-7-x86_64-Minimal-1511.isoを自分のパソコンにコピーします。(コピー先は自分が把握できる場所に)
 
 [Section0-1](https://github.com/n15011/wordpress/blob/master/Section0.md)でやったように
 
-    virtualbox
-と入力するとVirtualboxが立ち上がります
+    $virtualboxi
+
+を起動します。
+
+起動したら"新規"をクリック、その次にエキスパートモードをクリックします。
+
+![](./img/wordpress1.png)
+
+
+
+仮想マシンの名前を"Centos"にするとタイプとバージョン自動で切り替わってくれます。
+
+
 
