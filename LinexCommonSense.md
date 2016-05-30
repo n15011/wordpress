@@ -81,7 +81,7 @@ Linuxを構成するソフトウェアカーネルやライブラリコマンド
 Linuxは基本的にコマンドを使って操作をします。
 ユーザーインターフェースは、大きくて２つあります。パソコンやスマートフォンで一般的なのが**GUI(Graphical User Interface)**でディスプレイやアイコンやウィンドが並びマウスを使ったり指でタッチしたりして操作する。GUIが普及する前は、文字だらけの画面を見いながら、キーボードからモイを入力して操作をするのが一般的だった。そのような方式を**CUI(Character User Interface)**という
 
-  $ cd Documents
+   $ cd Documents
   $ ls
 sample.text
   $nano sample.txt
