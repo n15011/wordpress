@@ -8,14 +8,14 @@
 基本ソフトウェアのことを**オペレーティング・システム(Operating System)**、略して**OS**といいます。応用ソフトウェアを動作するための基本的な機能を提供すること。
 一般的なOSとしては
 
-*Windows
-*OS X
-*Linux(UNIX系OS)
-*FreeBSD(UNIX系OS)
-*OpenBSD(UNIX系OS)
-*Solaris
-*AIX
-*HP-UX
+* Windows
+* OS X
+* Linux(UNIX系OS)
+* FreeBSD(UNIX系OS)
+* OpenBSD(UNIX系OS)
+* Solaris
+* AIX
+* HP-UX
 
 ###サーバーOSとは
 OSにはサーバー用とされるOSがあります。Windowsでは、**Windows Server 2008**や**Windows2012**がサーバー用OSです。一般的なwindowsとの違い
