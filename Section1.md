@@ -42,7 +42,7 @@ CentOSの公式サイトよりCentOS 7 Minimal ISO(x86_64)のISOファイルを�
 
 VDI(VirtualBox Disk Image)を選択
 
-![](./img/wordpress5.pnga)
+![](./img/wordpress5.png)
 
 次へ
 
