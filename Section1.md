@@ -59,22 +59,22 @@ CentOSにログインするときに必要なパスワードです。
 ##IPアドレスの取得とSSH接続の確認
 /etc/sysconfig/network-script/ifcfg-enp08というファイルがあるのでviで開きます。(スーパーユーザーじゃないと書き込みできませんで注意)
 
-   $su -
+    $su -
 
 でスーパーユーザーに切り替えます。上記に記述してあるファイルを開きます。
 
-   ONBOOT=no
+    ONBOOT=no
 
 の部分を
 
-   ONBOOT=on
+    ONBOOT=on
 
 にします。
 
-   $service network restart
+    $service network restart
 
 でIPアドレスが取得されてるはずです。
 
-   $ip a
+    $ip a
 
 で確認してみてください。
