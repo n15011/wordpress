@@ -38,7 +38,8 @@ CentOSの公式サイトよりCentOS 7 Minimal ISO(x86_64)のISOファイルを�
 
 では作成したCentOSを立ち上げてみましょう!
 
-##CentOS設定
+##CentOSインストールまでの設定
+
 ###起動ハードディスクの選択
 起動ハードディスクを選択しろと言われるので**CentOS-7-x86_64-Minimal-1511.iso**を選択し数分待ちます。
 
