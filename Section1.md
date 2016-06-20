@@ -78,3 +78,41 @@ CentOSにログインするときに必要なパスワードです。
     $ip a
 
 で確認してみてください。
+
+ホスト側のターミナルから
+
+    ssh Virtualbox名@ipアドレス
+
+で接続が確認できることを確認しましょう。
+
+##yumとwgetのproxy設定
+
+###yumのproxy設定
+
+    /etc/yum.conf    の一行目以外に
+
+    proxy=http://172.16.40.1:8888
+
+を追加。保存して終了します。これでyumが使えるようになっているはずです。
+
+##wgetのインストールとproxy設定
+
+###wgetインストール
+
+    yum install wget
+
+でwgetをインストールします。
+
+###wgetのproxy設定
+
+    /etc/wgetrc   
+
+というファイルがあるので下記を追加
+
+    http_proxy=http://172.16.40.1:8888
+
+    https_proxy=https://172.16.40.1:8888
+
+
+
+
