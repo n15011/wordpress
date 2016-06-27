@@ -99,7 +99,7 @@ CentOSにログインするときに必要なパスワードです。
 
 ###wgetインストール
 
-    yum install wget
+    $ yum install wget
 
 でwgetをインストールします。
 
@@ -114,5 +114,62 @@ CentOSにログインするときに必要なパスワードです。
     https_proxy=https://172.16.40.1:8888
 
 
+##Apacheインストールと起動
 
+###Apacheのインストール
+
+   $ yum install httpd
+
+インストール完了です。それでは起動してみましょう。
+
+
+   $ service httpd start
+
+でスタートさせて
+
+   $ service httpd status
+
+で**active(running)**という結果が出てたらおｋです。
+
+
+##phpインストール
+
+###phpインストール
+
+   $ yum install php php-mbstring php-mysql
+
+
+##mysqlのインストールと起動と設定
+
+###mysqlのインストール
+
+   $ yum -y install http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
+
+で公式リポジトリを取ってくる
+
+   $ yum install mysql mysql-server mysql-devel
+
+でmysqlをインストール
+
+###mysqlの起動
+
+   $ service mysql start
+
+Apacheと同様に起動してるか確認
+
+   $ service mysql status
+
+**active (running) **と表示されてたらおｋです。
+
+###mysql設定
+
+   $ mysql -p
+
+で動くと思いきやエラーになります。
+
+
+
+##Wordpressのインストール
+
+   $ wget
 
