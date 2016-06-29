@@ -161,15 +161,23 @@ Apacheと同様に起動してるか確認
 
 **active (running) **と表示されてたらおｋです。
 
-###mysql設定
+###mysqlのパスワード設定
 
-   $ mysql -p
+動いてることは確認できたのでログインする時のパスワードを設定しましょう。
 
-で動くと思いきやエラーになります。
+   $ mysql_secure_installation
+
+で新しいパスワードを設定します。
 
 
+###mysqlにデータベース作成
 
-##Wordpressのインストール
+mysqlにログインしたら
 
-   $ wget
+   $ create database 任意のデータベース名;
 
+でデータベースを作成します
+
+   $ grant all on wpdb.* to '任意のユーザー名'@'localhost' identified by '任意のパスワード';
+
+で終わりです。
