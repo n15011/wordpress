@@ -181,3 +181,21 @@ mysqlにログインしたら
     $ grant all on 上記で作成したデータベース名.* to '任意のユーザー名'@'localhost' identified by '任意のパスワード';
 
 で終わりです。
+
+##Wordpressのインストール
+
+    $ wget https://ja.wordpress.org/latest-ja.tar.gz
+
+で引っ張ってきます。
+
+    $ tar -xzvf lates-ja.tar.gz
+
+で展開します。Wordpressというフォルダがあると思うので
+
+    /var/www/html
+
+にフォルダごと移動させます
+
+    $ mv wordpress /var/www/html
+
+これであなたも一人前のwordpresserです。
