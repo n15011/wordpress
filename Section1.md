@@ -118,16 +118,16 @@ CentOSにログインするときに必要なパスワードです。
 
 ###Apacheのインストール
 
-   $ yum install httpd
+    $ yum install httpd
 
 インストール完了です。それでは起動してみましょう。
 
 
-   $ service httpd start
+    $ service httpd start
 
 でスタートさせて
 
-   $ service httpd status
+    $ service httpd status
 
 で**active(running)**という結果が出てたらおｋです。
 
@@ -136,28 +136,28 @@ CentOSにログインするときに必要なパスワードです。
 
 ###phpインストール
 
-   $ yum install php php-mbstring php-mysql
+    $ yum install php php-mbstring php-mysql
 
 
 ##mysqlのインストールと起動と設定
 
 ###mysqlのインストール
 
-   $ yum -y install http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
+    $ yum -y install http://dev.mysql.com/get/mysql-community-release-el7-5.noarch.rpm
 
 で公式リポジトリを取ってくる
 
-   $ yum install mysql mysql-server mysql-devel
+    $ yum install mysql mysql-server mysql-devel
 
 でmysqlをインストール
 
 ###mysqlの起動
 
-   $ service mysql start
+    $ service mysql start
 
 Apacheと同様に起動してるか確認
 
-   $ service mysql status
+    $ service mysql status
 
 **active (running) **と表示されてたらおｋです。
 
@@ -165,7 +165,7 @@ Apacheと同様に起動してるか確認
 
 動いてることは確認できたのでログインする時のパスワードを設定しましょう。
 
-   $ mysql_secure_installation
+    $ mysql_secure_installation
 
 で新しいパスワードを設定します。
 
@@ -174,10 +174,10 @@ Apacheと同様に起動してるか確認
 
 mysqlにログインしたら
 
-   $ create database 任意のデータベース名;
+    $ create database 任意のデータベース名;
 
 でデータベースを作成します
 
-   $ grant all on wpdb.* to '任意のユーザー名'@'localhost' identified by '任意のパスワード';
+    $ grant all on wpdb.* to '任意のユーザー名'@'localhost' identified by '任意のパスワード';
 
 で終わりです。
