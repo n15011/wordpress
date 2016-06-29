@@ -159,7 +159,7 @@ Apacheと同様に起動してるか確認
 
     $ service mysql status
 
-**active (running) **と表示されてたらおｋです。
+ **active (running) **と表示されてたらおｋです。
 
 ###mysqlのパスワード設定
 
@@ -178,6 +178,6 @@ mysqlにログインしたら
 
 でデータベースを作成します
 
-    $ grant all on wpdb.* to '任意のユーザー名'@'localhost' identified by '任意のパスワード';
+    $ grant all on 上記で作成したデータベース名.* to '任意のユーザー名'@'localhost' identified by '任意のパスワード';
 
 で終わりです。
